@@ -15,7 +15,7 @@ Defaults: 1
 
 -Primary: #e67e22
 -Tints: #fdf2e9
--Shades:
+-Shades:#cf711f
 -Accents:
 -Greys:
 #555
@@ -44,7 +44,7 @@ html {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Rubik", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
@@ -84,6 +84,7 @@ body {
   display: inline-block;
   background-color: #e67e22;
   font-size: 2rem;
+  font-weight: 600;
   text-decoration: none;
   padding: 1.6rem 3.2rem;
   border-radius: 10px;
@@ -122,4 +123,37 @@ body {
 
 .margin-right-sm {
   margin-right: 1.6rem;
+}
+
+.delivered-meals {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-top: 8rem;
+}
+
+.delivered-imgs {
+  display: flex;
+}
+
+.delivered-imgs img {
+  height: 4.8rem;
+  width: 4.8rem;
+  border-radius: 50%;
+  margin-right: -1.6rem;
+  border: 0.3rem solid #fdf2e9;
+}
+
+.delivered-imgs img:last-child {
+  margin: 0;
+}
+
+.delivered-text {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.delivered-text span {
+  color: #cf711f;
+  font-weight: 700;
 }
