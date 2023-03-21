@@ -83,13 +83,23 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
-.heading-primary {
-  font-size: 5.2rem;
+.heading-primary,
+.heading-secondary {
   font-weight: 700;
-  line-height: 1.05;
   color: #333;
   letter-spacing: -0.5px;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  line-height: 1.05;
   margin-bottom: 3.2rem;
+}
+
+.heading-secondary {
+}
+
+.subheading {
 }
 
 .btn:link,
@@ -259,5 +269,9 @@ body {
 
 .section-how {
   padding: 9.6rem 0;
-  background-color: orangered;
+  /* background-color: orangered; */
+}
+
+.step-img {
+  width: 50%;
 }
