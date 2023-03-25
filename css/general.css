@@ -23,10 +23,14 @@ Paragraph default: 1.6
 --- 02 COLORS
 
 -Primary: #e67e22
--Tints: #fdf2e9
+-Tints: 
+#fdf2e9
+#fae5d3
 -Shades:#cf711f
 -Accents:
 -Greys:
+
+#6f6f6f (lightest grey allowed on #fdf2e9)
 #555
 #333
 
