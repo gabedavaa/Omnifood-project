@@ -1,0 +1,20 @@
+/* rem and em do NOT depend on html font-size in medeia queries!
+ intead, 1rem = 1em = 16px*/
+
+/* *********************** */
+/* BELOW 1344PX (Smaller desktops) */
+/* *********************** */
+
+@media (max-width: 84em) {
+  .hero {
+    max-width: 120rem;
+  }
+
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+}
