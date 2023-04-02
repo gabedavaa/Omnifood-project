@@ -208,6 +208,11 @@
   .main-nav-link:visited {
     font-size: 3rem;
   }
+
+  .pricing-plan--complete::after {
+    top: 5%;
+    right: -20%;
+  }
 }
 
 /* *********************** */
@@ -248,9 +253,18 @@
     margin-bottom: 3.2rem;
   }
 
-  /* .cta {
+  .cta {
     grid-template-columns: 1fr;
-  } */
+  }
+
+  .cta-text-box {
+    padding: 5.2rem;
+  }
+
+  .cta-img-box {
+    grid-row: 1;
+    height: 32rem;
+  }
 }
 
 /* *********************** */
@@ -322,5 +336,10 @@
   .cta-img-box {
     grid-row: 1;
     height: 32rem;
+  }
+
+  .pricing-plan--complete::after {
+    top: 8.5%;
+    right: -12%;
   }
 }
