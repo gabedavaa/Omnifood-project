@@ -2,4 +2,4 @@
  
 Omnifood project
 
-Live URL: https://gabedavaa.github.io/Omnifood-project/
+Live URL: https://omnifood-levan.netlify.app/
